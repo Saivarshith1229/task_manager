@@ -1,1 +1,46 @@
-
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "profile": {
+        "age": 30,
+        "gender": "male",
+        "location": "New York, USA"
+      },
+      "posts": [
+        {
+          "id": 101,
+          "title": "My First Blog Post",
+          "content": "This is the content of my first blog post.",
+          "date": "2023-10-01"
+        },
+        {
+          "id": 102,
+          "title": "Another Day in Paradise",
+          "content": "Today was a great day! I went hiking and enjoyed nature.",
+          "date": "2023-10-05"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "profile": {
+        "age": 28,
+        "gender": "female",
+        "location": "London, UK"
+      },
+      "posts": [
+        {
+          "id": 201,
+          "title": "Travel Diaries",
+          "content": "Just got back from an amazing trip to Italy!",
+          "date": "2023-09-20"
+        }
+      ]
+    }
+  ]
+}
